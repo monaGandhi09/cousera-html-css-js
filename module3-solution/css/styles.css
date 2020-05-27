@@ -1,0 +1,143 @@
+#body{
+    font-size: 16px ;
+    color: #222222;
+    background-color: #2f2fa2;
+    font-family: 'Oxygen', sans-serif ;
+}
+
+#header-nav{
+    background-color: white;
+    border-radius: 0;
+    border: 0;
+}
+
+#nav-list{
+    float: right;
+}
+
+#logo-img{
+    background: url(../images/restaurant-logo.png) no-repeat center;
+    width: 155px;
+    height: 153px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand{
+    padding-top: 25px;
+}
+
+.navbar-brand h1{
+    font-family: 'Lora', sans-serif;
+    color: #f64c72;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+.navbar-toggler{
+    position: absolute;
+    top: 20px;
+    right:20px;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a{
+    color: #951c49;
+    text-align: center;
+}
+
+#nav-list a:hover{
+    background: #a4a4c7;
+}
+
+.navbar-header button.navbar-toggler{
+    border: 1px solid #61122f;
+}
+
+#title {
+    margin-top: 20px;
+    font-family: 'Lora', sans-serif;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    line-height: .75;
+    background-color: rgb(252, 109, 168);
+}
+
+.sub-content{
+    margin: 20px auto 10px;
+    border: 1px solid #221f1f;
+    background-color: rgb(182, 181, 194);
+}
+.sub-content h3{
+    margin-top: 20px;
+}
+
+.content, .end{
+    margin: 30px auto 10px ;
+    width: 90%;
+}
+.end{
+    font-style: italic;
+    font-size: 0.8em;
+}
+.end a{
+    font-style: normal;
+}
+
+
+@media(min-width: 1200px){
+    
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+    
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    
+}
+
+@media(max-width: 767px){
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1 {
+        padding-top: 0;
+        font-size: 2em;
+    }
+    #collapsable-nav a{
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span{
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    #nav-list{
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px){
+    .navbar-brand h1{
+        padding-top: 0;
+        font-size: 1.8em;
+    }
+}
+
+
+
